@@ -3,10 +3,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/splashscreen_bg"
+    >
+
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/launch_screen"
-        android:scaleType="centerCrop" />
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo" />
+
 </RelativeLayout>

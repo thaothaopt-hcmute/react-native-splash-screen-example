@@ -29,3 +29,17 @@ Nếu dùng class func thì
 trong componentDidMount
 
 SplashScreen.hide(); - func này trong screen tiếp theo của SplashScreen, ví dụ Guide Screen, Login Screen,....
+
+
+## Với trường hợp làm Splash screen bằng icon, fill backgroundColor
+1. Android
+- Chỉ cần 1 folder drawable
+- Thêm style và backgroundColor vào view - RelativeLayout - bên ngoài
+2. iOS
+- ko cần tạo thêm .storyboard, dùng trực tiếp LaunchScreen.xib
+- Cách tạo:
+    * Tạo SplashIcon trong Images.xcassets, sau đó drag hình vào 1x 2x 3x
+    * Xoá các label có sẵn "splashscreen" "Power...", sau đó thêm Image View
+    * - Image View : chọn SplashIcon (cái này vừa tạo trên Images.xcassets) - có thể hiểu khúc này là bỏ source vào
+    * Fill backgroundColor cho View
+    * Sau đó chỉnh center cho ImageView

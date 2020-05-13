@@ -2,4 +2,5 @@
 <resources>
     <color name="primary_dark">#000000</color>
     <color name="status_bar_color">#000000</color>
+    <color name="splashscreen_bg">#fbb589</color>
 </resources>

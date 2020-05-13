@@ -20,7 +20,6 @@
 		74C63567FCC874709D1490F6 /* libPods-splashscreen-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E4441A10C0D29518420F73 /* libPods-splashscreen-tvOSTests.a */; };
 		87E2E637CD18F31A7F39B75E /* libPods-splashscreen-splashscreenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3423F8577BC7BCB27E430B58 /* libPods-splashscreen-splashscreenTests.a */; };
 		97B7B0205F028CEC9880D272 /* libPods-splashscreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7695FC7F0A99AC1E389FC57F /* libPods-splashscreen.a */; };
-		DA693A6D246B9ACC0093055A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA693A6C246B9ACC0093055A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +63,6 @@
 		7695FC7F0A99AC1E389FC57F /* libPods-splashscreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-splashscreen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9B17999521BC7B22C0530F /* Pods-splashscreen-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-splashscreen-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-splashscreen-tvOSTests/Pods-splashscreen-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA40F1ECC3FF691442AF0506 /* Pods-splashscreen-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-splashscreen-tvOS.release.xcconfig"; path = "Target Support Files/Pods-splashscreen-tvOS/Pods-splashscreen-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		DA693A6C246B9ACC0093055A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F082624915D2415B1A67D914 /* Pods-splashscreen-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-splashscreen-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-splashscreen-tvOS/Pods-splashscreen-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,7 +129,6 @@
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				DA693A6C246B9ACC0093055A /* LaunchScreen.storyboard */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
@@ -340,7 +337,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA693A6D246B9ACC0093055A /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
