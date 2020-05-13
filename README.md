@@ -14,6 +14,7 @@ tạo folder, tạo file cần thiết
     Sau đó tab chỉnh style - source các thứ bên phải
       - Image View : chọn LaunchScreen (cái này vừa tạo trên Images.xcassets) - có thể hiểu khúc này là bỏ source vào
       - View : chỗ content mode chọn mode tương ứng, thường là "Scale to fill" cho nó fullfill cả screen luôn
+3. Apply SplashScreen vừa hoàn thành vào Launch Screen file, (trong General, mục App Icons and Launch Image)
 
 
 ## Chú ý style code
